@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+p{
+    color:black;
+}
+body{
+    display: grid;
+    justify-content: center;
+    background-image: url(Matrix-l-origine-du-code-vert-revelee.jpg);
+    background-repeat: no-repeat;
+}
+
+.titre{
+    color: white;
+    text-align: center;
+    padding-top: 5rem;
+    margin-left: -40rem;
+}
+
+
+
+.all{
+    display: grid;
+    justify-content: center;
+    border: 1rem solid black;
+    padding: 15px 1rem;
+    background-color: darkgray;
+    height: 28rem;
+    width: 30rem;
+    margin-left: -35rem;
+}
+
+#ecran{
+    border: 2px solid  black ;
+    width: 19rem;
+    height: 2rem;
+    margin: 2rem 0rem 1rem 0rem;
+    text-align: center;
+    background-color: white;
+}
+.digicode{
+    display:grid;
+    grid-template-columns: 100px 100px 100px; 
+    height: 16rem;
+    border: solid blue;
+}
+
+.option{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+#reset{
+    background-color: black;
+    color: white;
+    margin: 1rem;
+}
+.bouton{
+    border:1px solid;
+    border-color: blue;
+    margin: 1px;
+}
+
+
